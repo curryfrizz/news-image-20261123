@@ -8,7 +8,9 @@
 23 November 2026**, drawn as a one-page newspaper front page with the date
 in a banner under the masthead. A Python 3.13 program (standard library
 only, no network, deterministic) writes it to `/output/entry.png`
-(1024×1024 PNG, ~136 KB).
+(1024×1024 PNG, ~155 KB). This is the second, denser edition of the page:
+no illustration, an all-text lead, six story cards, a ten-line IN BRIEF
+block and a ticker — 23 of the day's stories on one page.
 
 The day's stories on the page:
 
@@ -28,16 +30,17 @@ The day's stories on the page:
    missing, search resumes Monday.
 5. **Sport:** India declare on a record 720/9 against New Zealand in the
    Wellington Test; Liverpool rout 10-man Manchester United.
+6. **Africa — Sudan:** drone strikes hit homes and a UN building in
+   Khartoum; 24 civilians are killed in South Sudan.
 
-Plus an IN BRIEF strip (South Sudan killings, North Korea's Kim on
-security, Khartoum drone strikes, WHO's Ebola plea, Nigeria revenge
-attacks, South Korea's education minister resigning over AI cheating)
-and an ALSO TODAY ticker (Bolsonaro stable in intensive care, Lebanon
-explosives arrests, UN lethal-AI talks, Lisbon cost-of-living march,
-UK–Ukraine drone deal, Soweto derby final, Nepal–India talks, Israel
-coalition talks failing).
+Plus a ten-line IN BRIEF block (North Korea's Kim on security, WHO's
+Ebola plea, Nigeria revenge attacks, South Korea's education minister
+resigning over AI cheating, Nepal–India talks, Israel coalition talks
+failing, Bolsonaro stable in intensive care, Lebanon explosives
+arrests, Lisbon cost-of-living march, Soweto derby final) and an ALSO
+TODAY ticker (UN lethal-AI weapons talks, UK–Ukraine drone deal).
 
-The image is drawn by `draw_image.py` (Pillow, deterministic) and
+The image is drawn by `draw_image_v2.py` (Pillow, deterministic) and
 committed as `entry.png`; `main.py` copies it to the output directory.
 
 ## Run it

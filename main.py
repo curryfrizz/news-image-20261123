@@ -3,7 +3,7 @@
 
 Writes the repository's entry.png - a one-page newspaper summing up the
 world news of Monday 23 November 2026 - to /output/entry.png. The image
-is drawn ahead of time by draw_image_v2.py (also in this repository) and
+is drawn ahead of time by draw_image_v3.py (also in this repository) and
 shipped beside this program; this program simply copies it, byte for
 byte, so two runs always produce identical output. No network is used.
 

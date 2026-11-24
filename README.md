@@ -8,9 +8,10 @@
 23 November 2026**, drawn as a one-page newspaper front page with the date
 in a banner under the masthead. A Python 3.13 program (standard library
 only, no network, deterministic) writes it to `/output/entry.png`
-(1024×1024 PNG, ~155 KB). This is the second, denser edition of the page:
-no illustration, an all-text lead, six story cards, a ten-line IN BRIEF
-block and a ticker — 23 of the day's stories on one page.
+(1024×1024 PNG, ~149 KB). This is the third, densest edition of the
+page: no illustration, an all-text lead, a THE DAY IN NUMBERS strip,
+nine story cards and an IN BRIEF block — some 41 fact lines covering
+the day's stories on one page.
 
 The day's stories on the page:
 
@@ -40,7 +41,7 @@ failing, Bolsonaro stable in intensive care, Lebanon explosives
 arrests, Lisbon cost-of-living march, Soweto derby final) and an ALSO
 TODAY ticker (UN lethal-AI weapons talks, UK–Ukraine drone deal).
 
-The image is drawn by `draw_image_v2.py` (Pillow, deterministic) and
+The image is drawn by `draw_image_v3.py` (Pillow, deterministic) and
 committed as `entry.png`; `main.py` copies it to the output directory.
 
 ## Run it
